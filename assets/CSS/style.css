@@ -1,0 +1,150 @@
+.content{
+    height: 100%;
+}
+.title{
+    float: left;
+    margin-left: 160px;
+}
+i.bi.bi-magic{
+    margin-left: 430px;
+
+}
+.form-search{
+    width: 300px;
+    margin-top: -40px;
+    background: none;
+}
+.form-control{
+    text-align: center;
+    cursor: pointer;
+    margin: 0 0 0 -10px;
+}
+.form-control:focus{
+    border: 1px solid rgb(28, 122, 186);
+}
+.inner-addon{
+    position: relative;
+}
+.inner-addon .bi{
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+.left-addon .bi{
+    left: 0;
+}
+.right-addon .bi{
+    right: 0;
+}
+.left-addon input{
+    padding-left: 30px;
+}
+.right-addon input{
+    padding-right: 30px;
+}
+.btn-twitter{
+    text-align: center;
+    width: 150px;
+}
+div.col-2 img{
+    margin: 1px;
+}
+.nav-link{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    background: lightgray;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.icon:hover{
+    background: lightgray;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+span{
+    color: gray;
+}
+.col-2 img{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     backdrop-filter: none;
+     margin-left: -15px;
+}
+.gicon{
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    margin: 40px 0 0 -15px;
+}
+.show{
+    color: rgb(28, 122, 186);
+    font-size: 1em;
+    cursor: pointer;
+}
+.show:hover{
+    color: rgb(28, 122, 186);
+}
+.tent{
+    height: 550px;
+}
+.title2{
+    margin-top: -30px;
+    margin-left: 40px;
+}
+.text-start{
+    width: 500px;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+.tweet{
+    margin-top: -20px;
+    background-color: rgb(145, 197, 232);
+}
+.col-6{
+    border: 1px solid #eee;
+    margin-top: -16px;
+}
+hr{
+    opacity: .15;
+}
+.world:hover{
+    background: lightgrey;
+    cursor: pointer;
+}
+.span-icons{
+    margin-left: -10px;
+}
+.moret:hover{
+    background: lightgray;
+    cursor: pointer;
+    height: 35px;
+}
+.span-tweet{
+    margin-left: px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+.tweet-hover:hover{
+   background: lightgray;
+   cursor: pointer;
+}
+span.dots,
+span.dots3{
+    margin-left: 80px;
+}
+span.dots2{
+    margin-left: 41px;
+}
+span.dots4{
+    margin-left: 75px;
+}
+h5{
+    margin-top: 5px;
+}

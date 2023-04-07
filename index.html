@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <title>Twitter</title>
+</head>
+<body>
+
+    <main>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                  <nav class="navbar bg-white nav">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <i class="bi bi-twitter text-primary fs-2 icon"></i>
+                      </a>
+                      <a class="navbar-brand title">Inicio</a><i class="bi bi-magic"></i>
+                      <form class="d-flex inner-addon left-addon" role="search">
+                        <i class="bi bi-search"></i>
+                        <input class="form-control me-2 rounded-pill bg-light" type="search" placeholder="Buscar en Twitter" aria-label="Search">
+                        
+                            </form>
+                          </div>
+                        </nav>
+                      </div>
+                    </div>
+                    
+                    <hr>
+                    <div class="row">
+                      <div class="col-3">
+                        <ul class="nav flex-column mb-3">
+                          <li class="nav-item">
+                            <a class="nav-link home fw-bold" href="#"><i class="bi bi-house me-2"></i> Inicio</a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="bi bi-hash me-2"></i> Explorar</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link"><i class="bi bi-bell me-2"></i> Notificaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="bi bi-envelope me-2"></i> Mensajes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link"><i class="bi bi-bookmark me-2"></i> Guardados</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link"><i class="bi bi-list-columns-reverse me-2"></i> Listas</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link"><i class="bi bi-person me-2"></i> Perfil</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link"><i class="bi bi-filter-circle me-2"></i> Mas opciones</a>
+                          </li>
+                      </ul>
+                      <button type="button" class="btn btn-primary rounded-pill btn-twitter">Twittear</button>
+                </div>
+                
+                
+                    <div class="col-6">
+                        <div class="col-2">
+                            <img src="data:image/jpeg;base64,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" alt="">
+                          </div>
+    
+                          <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control border-0 fs-4" placeholder="¿Que está pasando?" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">¿Que está pasando?</label>
+                              </div>
+                              <span class="text-primary world rounded-pill"><i class="bi bi-globe-americas me-1"></i> Cualquier presona puede responder</span>
+                              <div class="span-icons p-1">
+                                <span><i class="bi bi-image text-primary m-2"></i></span>
+                                <span><i class="bi bi-filetype-gif text-primary m-2"></i></span>
+                                <span><i class="bi bi-bar-chart-steps text-primary m-2"></i></span>
+                                <span><i class="bi bi-emoji-smile text-primary m-2"></i></span>
+                                <span><i class="bi bi-calendar-check-fill"></i></span>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                  <button class="btn btn-primary rounded-pill tweet" type="button">Tweet</button>
+                                </div>
+                                <hr>
+                              </div>
+                              </div>
+                              <div class="text-center moret">
+                                <span class="fw-bold text-primary tweets1 rounded-pill">Mostrar 1,900 Tweets</span>
+                              </div>
+
+                              <hr>
+                              <div class="container">
+                                <div class="card m-3 border-0 rounded-3 text-bg-white w-100 tweet-hover">
+                                  <div class="card-body m-2">
+                                    <div class="row">
+                                      <div class="col-2">
+                                        <img class="rounded-circle height="50" src="assets/Imagenes/kodunityfoto.jpg" alt="Imagen de Juan Serrano">
+                                      </div>
+                                      <div class="col-9 ms-1">
+                                        <h6 class="mb-0">Juan Serrano
+                                        <i class="bi bi-patch-check text-primary ms-2"></i>
+                                        <i class="bi bi-twitter float-end text-primary fs-3"></i>
+                                        </h6>
+                                        <p class="text-muted">@JuanSerrano</p>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-12">
+                                          <p class="text-black fs-4 mt-1">Lorem ipsum dolor sit amet.</p>
+                                          <p class="text-primary fs-4 mb-1">#Dojopy</p>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <p class="text-muted fs-6">9:00am May 4, 2023</p>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-3">
+                                            <a href="#" class="span-tweet"><i class="bi bi-share fs-8 text-secondary"><span class="span-tweet">1000</span></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="#" class="span-tweet"><i class="bi bi-heart-fill  fs-8 text-danger"><span class="span-tweet"> 8000</span></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="#" class="span-tweet"><i class="bi bi-arrow-bar-up fs-8 text-secondary"></i><span class="span-tweet"> Compartir</span></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+    
+                              <div class="container">
+                                <div class="card m-3 border-0 rounded-3 text-bg-white w-100 tweet-hover">
+                                  <div class="card-body m-2">
+                                    <div class="row">
+                                      <div class="col-2">
+                                        <img class="rounded-circle height="50" src="assets/Imagenes/persona1.jpeg" alt="Imagen de Rodrigo">
+                                      </div>
+                                      <div class="col-9 ms-1">
+                                        <h6 class="mb-0">Rodrigo Muñiz
+                                        <i class="bi bi-patch-check text-primary ms-2"></i>
+                                        <i class="bi bi-twitter float-end text-primary fs-3"></i>
+                                        </h6>
+                                        <p class="text-muted">@RodrigoMz</p>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-12">
+                                          <p class="text-black fs-4 mt-1">Lorem ipsum dolor sit amet.</p>
+                                          <p class="text-primary fs-4 mb-1">#Full-Stack</p>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <p class="text-muted fs-6">8:00pm abril 12, 2023</p>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-3">
+                                            <a href="#" class="span-tweet"><i class="bi bi-share fs-8 text-secondary"> <span class="span-tweet">800</span></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="#" class="span-tweet"><i class="bi bi-heart-fill  fs-8 text-danger"><span class="span-tweet"> 800</span></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                            <a href="#" class="span-tweet"><i class="bi bi-arrow-bar-up fs-8 text-secondary"></i><span class="span-tweet"> Compartir</span></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+    
+                              <div class="container">
+                                <div class="card m-3 border-0 rounded-3 text-bg-white w-100 tweet-hover">
+                                  <div class="card-body m-2">
+                                    <div class="row">
+                                      <div class="col-2">
+                                        <img class="rounded-circle" src="assets/Imagenes/persona2.jpeg" alt="Imagen de Elizabeth">
+                                      </div>
+                                      <div class="col-9 ms-1">
+                                        <h6 class="mb-0">Elizabeth Arroyo
+                                        <i class="bi bi-patch-check text-primary ms-2"></i>
+                                        <i class="bi bi-twitter float-end text-primary fs-3"></i>
+                                        </h6>
+                                        <p class="text-muted">@E_Arroyo</p>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-12">
+                                          <p class="text-black fs-4 mt-1">Lorem ipsum dolor sit amet.</p>
+                                          <img src="assets/Imagenes/perro.jpeg" alt="Imagen de Perro">
+                                          <img width="217" height="122" src="assets/Imagenes/gato.jpg" alt="Imagen de gato">
+                                          <p class="text-primary fs-4 mb-1">#PuertoRico</p>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <p class="text-muted fs-6">3:00pm Junio 4, 2023</p>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-3">
+                                          <a href="#" class="span-tweet"><i class="bi bi-share fs-8 text-secondary">   <span class="span-tweet">100</span></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href="#" class="span-tweet"><i class="bi bi-heart-fill  fs-8 text-danger"><span class="span-tweet"> 400</span></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href="#" class="span-tweet"><i class="bi bi-arrow-bar-up fs-8 text-secondary"></i><span class="span-tweet"> Compartir</span></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                    </div>
+                
+
+                
+                    <div class="col-3 bg-light rounded-4">
+                        <h5>Tendencias para ti</h5>
+                 <ul class="nav flex-column mb-3">
+                  <li class="nav-item">
+                    <a class="nav-link rounded-0">
+                      <span class="d-block mb-2 rounded-0">Tendencia en Perú<span class="dots"><i class="bi bi-three-dots"></i></span></span>
+                      <span class="d-block mb-2 text-black">Computrabajo</span>
+                    <span class="d-block mb-2">5.006 Tweets</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link rounded-0">
+                      <span class="d-block mb-2 rounded-0">Tecnología - Tendencia <span class="dots2"><i class="bi bi-three-dots"></i></span></span>
+                      <span class="d-block mb-2 text-black">#instagramdown</span>
+                    <span class="d-block mb-2">37,3 mil Tweets</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link rounded-0">
+                      <span class="d-block mb-2 rounded-0">Tendencia en Perú<span class="dots3"><i class="bi bi-three-dots"></i></span></span>
+                      <span class="d-block mb-2 text-black">Shakira</span>
+                    <span class="d-block mb-2">10,6 mil Tweets</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link rounded-0">
+                      <span class="d-block mb-2 rounded-0">Tendencia en Perú <span class="dots4"><i class="bi bi-three-dots"></i></span></span>
+                      <span class="d-block mb-2 text-black">Gracias Profe</span>
+                    <span class="d-block mb-2">1.494 Tweets</span></a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link show rounded-0">Ver más</a>
+                      </li>
+                    
+                </ul>
+                
+                <div class="col-12 bg-light mt-5 rounded-3">
+                  &copy; 2022 Twitter, Inc
+              </div>
+                    </div>
+                </div>
+
+           </div>
+            
+    
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</body>
+</html>
